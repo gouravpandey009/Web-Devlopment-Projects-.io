@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourav Fitness</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+
+<style>
+    /*  CSS Reset */
+
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/Gym 5.jpg');
+
+    }
+
+
+    .left {
+        display: inline-block;
+       /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 88px;
+        filter: invert(0%);
+        /* filter : invert(100%); */
+        /*Invert function is used to invert the color of the image from black to white and white to black */
+    }
+
+    .left div {
+        font-family: "Sofia", sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+         /*border: 2px green; */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+       /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px 50px;
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+
+
+    }
+
+    .btn {
+        font-family: "Sofia", sans-serif;
+        font-size: 30px;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 10px;
+        border: 2px solid white;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px, 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+
+    }
+
+    .form-group input {
+        font-family: "Sofia", sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+
+    }
+
+    .container button {
+        font-family: "Sofia", sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/Gym 4.png" alt="">
+            <div>Gourav's Fitness</div>
+
+
+        </div>
+        <!-- Mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us Now</button><button class="btn">E Mail us</button>
+        </div>
+
+
+    </header>
+    <div class="container">
+
+        <h1>Join the best gym of Delhi now </h1>
+        <p>Fill the form below to get started with us</p>
+
+        <form action="noaction.php">
+            <input type="text" name="Enter your name" palceholder="Enter your name" required>
+            <input type="text" name="Enter your Age" palceholder="Enter your Age" required>
+            <input type="text" name="Enter your Gender" palceholder="Enter your Gender" required>
+            <input type="text" name="Enter your Locality" palceholder="Enter your Locality" required>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

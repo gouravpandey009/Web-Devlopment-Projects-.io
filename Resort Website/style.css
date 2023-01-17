@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing : border-box;
+
+
+}
+
+.main{
+    width:100%;
+}
+
+nav{
+    width:100%;
+    background-color : black;
+    height : 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo a{
+    font-size:20px;
+    color: red;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+a{
+    text-decoration: firebrick;
+    color: white;
+    font-size: 13px;
+    transition : 0.5s all ease;
+
+}
+
+ul{
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: center;
+    margin-right: 10px;
+    margin-left: 100px;
+  
+}
+
+ul1{
+    margin : 0px;
+    margin-left: 15px;
+    font-style: yel;
+}
+
+ul li{
+    float: left;
+    padding :0px 15px;
+    list-style: none;
+
+}
+
+ul li a:hover {
+    color : red;
+
+
+}
+
+.header{
+    background-image: url('https://www.tajhotels.com/content/dam/luxury/rambagh-palace/16x7/Welcome-4-crop.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height : 100vh;
+
+
+}
+
+.content{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+    text-align: center;
+    background : rgba(0, 0 , 0 , 0.5);
+
+
+}
+
+.content h1{
+    font-size: 50px;
+
+}
+
+.content p {
+    padding: 0px 70px;
+    font-size: 20px;
+    
+
+}
+
+
+button {
+    background : none;
+    border : 1px solid #fff;
+    color : #fff;
+    font-size: 18px;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+
+
+}
+
+
+button:hover {
+    background : black;
+    color : red;
+
+
+
+}
+
+
+.overlay {
+    background: rgba(0 , 0 , 0 , 0.6);
+    height: 100vh;
+
+}
